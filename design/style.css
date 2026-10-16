@@ -1,0 +1,103 @@
+:root {
+    --gold: hsl(31, 77%, 52%);
+    --cyan: hsl(184, 100%, 22%);
+    --green: hsl(179, 100%, 13%);
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.main {
+    display: flex;
+    height: calc(100vh - 18.4px);
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sudan {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: var(--gold);
+    text-align: center;
+    padding: 20px;
+    height: 400px;
+    line-height: 1.5;
+    border-radius: 4px 0 0 4px;
+
+    button {
+        background-color: var(--gold); 
+    }
+}
+
+.suv {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: var(--cyan);
+    text-align: center;
+    padding: 20px;
+    height: 400px;
+    line-height: 1.5;
+
+    button {
+        background-color: var(--cyan);
+    }
+}
+
+.luxury {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: var(--green);
+    text-align: center;
+    padding: 20px;
+    height: 400px;
+    line-height: 1.5;
+    border-radius: 0 4px 4px 0;
+
+    button {
+        background-color: var(--green);
+
+    }
+
+}
+
+span {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+
+
+button {
+    position: absolute;
+    bottom: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif; 
+    border: white 1px solid;
+    padding: 8px;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#icon {
+    width: 100px;
+    height: auto;
+}
+
